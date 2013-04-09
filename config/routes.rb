@@ -5,7 +5,7 @@ Omrails::Application.routes.draw do
 
   get 'about' => 'pages#about'
   get 'golfrater' => 'pages#golfrater'
-  get 'beeliber' => 'pages#beeliner'
+  get 'beeliner' => 'pages#beeliner'
 
   root :to => 'pins#index'
 
