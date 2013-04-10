@@ -6,6 +6,8 @@ Omrails::Application.routes.draw do
   get 'about' => 'pages#about'
   get 'golfrater' => 'pages#golfrater'
   get 'beeliner' => 'pages#beeliner'
+  get 'header' => 'pages#header'
+  get 'test' => 'pages#test'
 
   root :to => 'pins#index'
 
