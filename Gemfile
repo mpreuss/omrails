@@ -24,3 +24,7 @@ end
 
 gem 'intercom-rails', '~> 0.2.21'
 
+gem "figaro"
+
+#newrelic gem
+gem 'newrelic_rpm'

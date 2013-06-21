@@ -56,6 +56,9 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    figaro (0.6.4)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hike (1.2.1)
     i18n (0.6.4)
     intercom-rails (0.2.21)
@@ -71,6 +74,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.21)
     multi_json (1.6.1)
+    newrelic_rpm (3.6.4.122)
     nokogiri (1.5.9)
     orm_adapter (0.4.0)
     paperclip (3.4.1)
@@ -141,8 +145,10 @@ DEPENDENCIES
   bootstrap-sass (~> 2.3.0.1)
   coffee-rails (~> 3.2.1)
   devise
+  figaro
   intercom-rails (~> 0.2.21)
   jquery-rails
+  newrelic_rpm
   paperclip (~> 3.0)
   pg
   rails (= 3.2.12)
